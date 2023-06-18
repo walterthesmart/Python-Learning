@@ -8,7 +8,6 @@ def encryption(plain_text, shift_key):
         cipher_text += alphabets[new_postion]
     print(f"Here is the text after encryption: \n")
     print(cipher_text)
-
 def decryption(text2, shift_key2):
     cipher_text2 = ""
     for char2 in text2:
@@ -16,9 +15,6 @@ def decryption(text2, shift_key2):
         new_pos = (position2-shift_key2) % 26
         cipher_text2 -= alphabets[new_pos]
     print(f"Here is the decrypted text, {cipher_text2}")
-
-
-
 what_to_do=input("Type 'encrypt' for encryption, type 'decrypt' for decryption:\n")
 text=input("Type your message:\n")
 shift=int(input("Enter shift key:\n"))
