@@ -4,5 +4,7 @@ class Instructor:
         self.address = address
 
 instructor_1 = Instructor("Walter", "Birhmingham")
-
+instructor_2 = Instructor("Joy", "Lagos")
 print(instructor_1.name)
+print(instructor_2.address)
+
